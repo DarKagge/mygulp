@@ -1,5 +1,78 @@
+@import url(http://allfont.ru/allfont.css?fonts=arial-black);
 @font-face {
-  font-family: "RobotoRegular";
+  font-family: "BOOKOS";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+  src: url("../fonts/BOOKOS/BOOKOS.woff") format("woff"), url("../fonts/BOOKOS/BOOKOS.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "BOOKOSB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BOOKOSB/BOOKOSB.woff") format("woff"), url("../fonts/BOOKOSB/BOOKOSB.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "BOOKOSBI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BOOKOSBI/BOOKOSBI.woff") format("woff"), url("../fonts/BOOKOSBI/BOOKOSBI.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "BOOKOSI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BOOKOSI/BOOKOSI.woff") format("woff"), url("../fonts/BOOKOSI/BOOKOSI.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Candara";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Candara/Candara.eot?#iefix") format("embedded-opentype"), url("../fonts/Candara/Candara.woff") format("woff"), url("../fonts/Candara/Candara.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Candarab";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Candarab/Candarab.eot?#iefix") format("embedded-opentype"), url("../fonts/Candarab/Candarab.woff") format("woff"), url("../fonts/Candarab/Candarab.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Candarai";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Candarai/Candarai.eot?#iefix") format("embedded-opentype"), url("../fonts/Candarai/Candarai.woff") format("woff"), url("../fonts/Candarai/Candarai.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Candaraz";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Candaraz/Candaraz.eot?#iefix") format("embedded-opentype"), url("../fonts/Candaraz/Candaraz.woff") format("woff"), url("../fonts/Candaraz/Candaraz.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CalibriBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Calibri Bold/Calibri Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibri Bold/Calibri Bold.woff") format("woff"), url("../fonts/Calibri Bold/Calibri Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GOTHIC";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GOTHIC/GOTHIC.woff") format("woff"), url("../fonts/GOTHIC/GOTHIC.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GOTHICB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GOTHICB/GOTHICB.woff") format("woff"), url("../fonts/GOTHICB/GOTHICB.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GOTHICBI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GOTHICBI/GOTHICBI.woff") format("woff"), url("../fonts/GOTHICBI/GOTHICBI.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GOTHICI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GOTHICI/GOTHICI.woff") format("woff"), url("../fonts/GOTHICI/GOTHICI.ttf") format("truetype"); }

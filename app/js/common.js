@@ -113,3 +113,59 @@ $(function() {
 		return false;
 	})
 });
+
+
+
+
+
+
+
+	var autoplaySlider = $('#autoplay').lightSlider({
+		auto:true,
+		loop:true,
+		item:1,
+        controls:false,
+		pauseOnHover: true,
+		addClass: "topslider",
+		onBeforeSlide: function (el) {
+			$('#current').text(el.getCurrentSlideCount());
+		},
+		onAfterSlide: function (el) {
+
+		}
+	});
+	$('#total').text(autoplaySlider.getTotalSlideCount());
+
+
+
+	var autoplaySlider = $('#otz').lightSlider({
+		auto:false,
+		loop:true,
+		item:1,
+        pager:false,
+		pauseOnHover: true,
+		onBeforeSlide: function (el) {
+			$('#current').text(el.getCurrentSlideCount());
+		}
+	});
+	$('#total').text(autoplaySlider.getTotalSlideCount());
+
+
+	var autoplaySlider = $('#sertificat').lightSlider({
+		auto:false,
+		loop:true,
+		item:5,
+		pauseOnHover: true,
+        pager:false,
+		onBeforeSlide: function (el) {
+			$('#current').text(el.getCurrentSlideCount());
+		}
+	});
+	$('#total').text(autoplaySlider.getTotalSlideCount());
+
+
+
+
+
+
+    $("a[href*='#']").mPageScroll2id();

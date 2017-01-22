@@ -1,3 +1,16 @@
 @import "bourbon";
+@import url(http://allfont.ru/allfont.css?fonts=arial-black);
 
-@include font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
+@include font-face("BOOKOS", "../fonts/BOOKOS/BOOKOS", $file-formats: woff ttf);
+@include font-face("BOOKOSB", "../fonts/BOOKOSB/BOOKOSB", $file-formats: woff ttf);
+@include font-face("BOOKOSBI", "../fonts/BOOKOSBI/BOOKOSBI", $file-formats: woff ttf);
+@include font-face("BOOKOSI", "../fonts/BOOKOSI/BOOKOSI", $file-formats: woff ttf);
+@include font-face("Candara", "../fonts/Candara/Candara", $file-formats: eot woff ttf);
+@include font-face("Candarab", "../fonts/Candarab/Candarab", $file-formats: eot woff ttf);
+@include font-face("Candarai", "../fonts/Candarai/Candarai", $file-formats: eot woff ttf);
+@include font-face("Candaraz", "../fonts/Candaraz/Candaraz", $file-formats: eot woff ttf);
+@include font-face("CalibriBold", "../fonts/Calibri Bold/Calibri Bold", $file-formats: eot woff ttf);
+@include font-face("GOTHIC", "../fonts/GOTHIC/GOTHIC", $file-formats: woff ttf);
+@include font-face("GOTHICB", "../fonts/GOTHICB/GOTHICB", $file-formats: woff ttf);
+@include font-face("GOTHICBI", "../fonts/GOTHICBI/GOTHICBI", $file-formats: woff ttf);
+@include font-face("GOTHICI", "../fonts/GOTHICI/GOTHICI", $file-formats: woff ttf);
