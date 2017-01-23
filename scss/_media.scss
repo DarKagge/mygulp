@@ -40,7 +40,9 @@
 
 @media only screen and (max-width : 1269px){
 	.service-menu a{
-		margin-left: 70px;
+		margin-left: 48px;
+		padding-right: 0;
+		padding-left: 35px;
 	}
 	.right-menu li:last-child a{
 		padding-left: 85px;
@@ -56,12 +58,82 @@
 
 }
 @media only screen and (max-width : 1200px){
-	.right-menu li:last-child a{
-		padding-left: 70px;
+	.right-menu li:first-child a{
+		margin-left: 50px;
+	}
+	.right-menu li:first-child{
+		background-position: 47px 7px;
 	}
 	.right-menu li:nth-child(2) a{
-		padding-left: 75px;
+		padding-left: 65px;
+		margin-left: 45px;
 	}
+	.right-menu li:nth-child(2){
+		background-position: center 18px;
+	}
+	.right-menu li:last-child{
+		background-position: center;
+	}
+	.right-menu li:last-child a{
+		padding-left: 130px;
+		margin-left: 55px;
+	}
+	.all-mont{
+		margin-left: 0;
+	}
+	.title-service{
+		text-align: left;
+		h2{
+			padding-left: 15%;
+		}
+		p{
+			padding-left: 25%;
+		}
+	}
+	.title-service h2:after{
+		right: 260px;
+	}
+}
+@media only screen and (max-width : 1199px){
+	.service-menu li{
+		background-position: center;
+	}
+	.service-menu a{
+		display: inline-block;
+        margin-bottom: 10px !important;
+      text-align: left;
+      padding-left: 0;
+	}
+    body .service-menu ul{
+      text-align: center;
+      margin-top: 25px;
+
+    }
+	.service-menu li:nth-child(2){
+		background-position: center;
+      margin-left: -65px;
+	}
+  .service-menu li:nth-child(2) a{
+    margin-left: 0;
+  }
+    .service-menu li:nth-child(3){
+      margin-top: 0px;
+      margin-left: -16%;
+    }
+  .service-menu li:nth-child(3) a{
+    padding-left: 0;
+    margin-left: 10px;
+  }
+    .right-menu li:first-child{
+      background-image: url("../img/mobile/servisemenu2.png") !important;
+    }
+    .right-menu li:first-child a{
+      transform: skewY(0deg);
+    }
+  .service-menu{
+    background-position: right 130px;
+  }
+
 }
 @media only screen and (max-width : 1175px) {
 	.head-number{
