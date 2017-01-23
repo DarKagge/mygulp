@@ -54,6 +54,18 @@
   src: url("../fonts/Calibri Bold/Calibri Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibri Bold/Calibri Bold.woff") format("woff"), url("../fonts/Calibri Bold/Calibri Bold.ttf") format("truetype"); }
 
 @font-face {
+  font-family: "BebasNeueBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BebasNeue Bold/BebasNeue Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue Bold/BebasNeue Bold.woff") format("woff"), url("../fonts/BebasNeue Bold/BebasNeue Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "arial_bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/arial_blod/arial_bold.eot?#iefix") format("embedded-opentype"), url("../fonts/arial_blod/arial_bold.woff") format("woff"), url("../fonts/arial_blod/arial_bold.ttf") format("truetype"); }
+
+@font-face {
   font-family: "GOTHIC";
   font-style: normal;
   font-weight: normal;

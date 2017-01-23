@@ -122,6 +122,7 @@ footer{
     position: relative;
     text-align: center;
     margin: 10px 0 0 10px;
+    z-index: 69;
     p{
         font-family:Candarab;
         color: #fff;
@@ -134,10 +135,7 @@ footer{
     }
 }
 .black-line{
-    position: absolute;
-    z-index: -1;
-    top: 30px;
-    left: -8px;
+    margin-top: -18px;
     width: 213px;
     height: 53px;
     background-image: url("../img/back-bg.png");
@@ -427,7 +425,45 @@ footer{
 .slide-ser .lSSlideWrapper{
 
 }
+#map{
+  position: relative;
+}
+body .slider-map{
+  position: absolute;
+  left: 35px;
+  top: 245px;
+  max-width: 475px;
+  min-height: 405px;
+  background-image: url("../img/bg-slider-map.png");
+  background-repeat: no-repeat ;
+  ul{
+    height: 360px !important;
+  }
+  li{
+    max-width: 459px ;
+    margin-top: 7px !important;
+    margin-left: 11px !important;
 
+    img{
+      width: 100%;
+    }
+  }
+}
+.slider-map .lSAction>.lSPrev{
+  top: 95%;
+  background-image: url("../img/shape-map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+.slider-map .lSAction>.lSNext{
+  top: 95%;
+  right: 83%;
+  background-image: url("../img/shape-map1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
 .map{
   position: relative;
 }
@@ -503,6 +539,242 @@ footer{
     font-size:15px;
     font-family:GOTHIC;
   }
+}
+
+
+
+.mfp-close-btn-in .mfp-close{
+    color:  #545454;
+    opacity: 1;
+    padding: 2.8% 36px 0 0;
+}
+body .popup-steps-next{
+    background-image: url("../img/bg-steps-next.png");
+    min-height: 471px;
+
+}
+.steps-popup{
+    position: relative;
+    background-color: transparent;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    min-height: 413px;
+    background-image: url("../img/bg-popup1.png");
+    background-position: center top;
+    padding-left: 60px;
+    ul{
+        margin-top: 30px;
+
+    }
+    li{
+        position: relative;
+        &:first-child:after{
+            position: absolute;
+            content: '';
+            left: 19px;
+            bottom: -48px;
+            background-image: url("../img/step-arrow.png");
+            width: 30px;
+            height: 36px;
+        }
+    }
+    a{
+        text-align: center;
+        width: 68px;
+        height: 70px;
+        display: block;
+        background-image: url("../img/bg-steps1.png");
+        margin-bottom: 59px;
+        line-height: 25px;
+        color: #000;
+        opacity: .5;
+        &:active{
+            opacity: 1;
+        }
+
+    }
+    span{
+        display: block;
+        font-family:BebasNeueBold;
+        font-size:36px;
+        color: #000000;
+        text-transform: uppercase;
+        padding-top: 14px;
+    }
+    form{
+        margin-top: 25px;
+        p{
+            margin-bottom: 13px;
+            font-size:14px;
+            color: #000;
+            text-align: left;
+        }
+        select{
+            width: 280px;
+            border: none;
+            font-size:14px;
+            color: #707070;
+            padding: 10px 17px;
+            background: transparent;
+            &:focus{
+                border: none;
+                outline: none;
+            }
+
+        }
+        input{
+            border: 1px solid #bababa;
+            float: left;
+            max-width: 154px;
+            padding: 7px 17px;
+            margin-right: 10px;
+            font-size:14px;
+            margin-bottom: 15px;
+        }
+        button{
+            margin-left: 105px;
+            padding: 15px 50px 18px 24px;
+            font-size:14px;
+            text-transform: uppercase;
+            font-weight:bold;
+            color: #191919;
+            position: relative;
+            &:after{
+                position: absolute;
+                right: 15px;
+                top: 18px;
+                content: '';
+                background-image: url("../img/arrow-button.png");
+                width: 16px;
+                height: 13px;
+            }
+        }
+    }
+}
+body .red-but{
+    background-color: #fd1717;
+    color: #fff !important;
+    margin-left: 120px !important;
+    padding: 15px 35px !important;
+    margin-top: 30px;
+    text-align: center;
+    &:after{
+        display: none;
+    }
+
+
+}
+.select-in{
+    max-width: 271px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 24px;
+    border: 1px solid #bababa;
+    background-image: url("../img/shape-select.png");
+    background-position: 96% 10px;
+    background-repeat: no-repeat;
+}
+body .active-step{
+    opacity: 1;
+}
+.step-title{
+    font-family: 'Arial', arial;
+    font-weight:700;
+    font-size: 16px;
+    padding: 30px 0 30px 0px;
+    h2{
+        color: #fff;
+        text-transform: uppercase;
+    }
+    p{
+        color: #fd1717;
+    }
+    span{
+        font-weight:bold;
+        color: #fd1717;
+        font-size:16px;
+        font-family: 'Arial', arial;
+        display: inline;
+    }
+}
+
+
+.info-popup{
+    background-image: url("../img/bg-info-popup.png");
+    min-height: 413px;
+    max-width: 1009px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 71px;
+}
+.info-popup .mfp-close{
+    width: 70px;
+    height: 70px;
+    font-size:50px;
+    opacity: .4;
+}
+.text-info-block{
+    padding-left: 50px;
+    h2{
+        font-size:16px;
+        text-transform: uppercase;
+        font-weight:bold;
+        color: #000;
+        font-family:arial_bold;
+    }
+    p{
+        font-size:14px;
+        padding: 25px 0 0 0;
+        color: #000;
+        line-height: 25px;
+
+    }
+
+}
+.popup-button{
+    margin-top: 35px;
+    background-color: #fd1717;
+    color: #fff;
+    font-size:14px;
+    text-transform: uppercase;
+    font-family:arial_bold;
+    padding: 17px 28px;
+    display: inline-block;
+    &:hover{
+      text-decoration: none;
+      color: #fff;
+      background-color: #575756;
+    }
+}
+.foto{
+    width: 321px;
+    height: 224px;
+    margin-left: 82px;
+    img{
+        width: 100%;
+    }
+}
+.foto-q{
+    margin-left: 40px;
+    max-height: 230px;
+    img{
+        height: 100%;
+    }
+}
+
+
+body .questions{
+    background-image: url("../img/bg-q-popup.png");
+    background-repeat: no-repeat;
+    min-height: 323px;
+    padding-top: 31px;
+}
+body .questions .text-info-block {
+    h2{
+        padding-top: 15px;
+    }
 }
 //ALWAYS END
 @import "media.scss";

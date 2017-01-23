@@ -164,8 +164,54 @@ $(function() {
 	$('#total').text(autoplaySlider.getTotalSlideCount());
 
 
-
+	var autoplaySlider = $('#sld-map').lightSlider({
+		auto:false,
+		loop:true,
+		item:1,
+		pager:false,
+		pauseOnHover: true,
+		addClass: "mapslider",
+		onBeforeSlide: function (el) {
+			$('#current').text(el.getCurrentSlideCount());
+		}
+	});
 
 
 
     $("a[href*='#']").mPageScroll2id();
+
+
+
+
+
+	$('.open-popup-link').magnificPopup({
+		type:'inline',
+		midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+	});
+
+
+
+
+
+
+	$(".toggle_mnu").click(function() {
+		$(".sandwich").toggleClass("active");
+	});
+
+	$(".top_mnu ul a").click(function() {
+		$(".top_mnu").fadeOut(600);
+		$(".sandwich").toggleClass("active");
+		$(".top_text").css("opacity", "1");
+	}).append("<span>");
+
+	$(".toggle_mnu").click(function() {
+		if ($(".top_mnu").is(":visible")) {
+			$(".top_text").css("opacity", "1");
+			$(".top_mnu").fadeOut(600);
+			$(".top_mnu li a").removeClass("fadeInUp animated");
+		} else {
+			$(".top_text").css("opacity", ".1");
+			$(".top_mnu").fadeIn(600);
+			$(".top_mnu li a").addClass("fadeInUp animated");
+		}
+	});
